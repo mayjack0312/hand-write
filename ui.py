@@ -149,7 +149,7 @@ class Ui_Form(object):
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
         Form.setWindowTitle(_translate("Form", "手写模拟"))
-        self.textEdit.setPlaceholderText(_translate("Form", "本软件主要基于handwrite库开发，仅供学习交流。作者只是一名为手写作业发愁的大学生，想要源码或者想要添加功能、反馈bug的，可以联系作者b站：人走茶凉le"))
+        self.textEdit.setPlaceholderText(_translate("Form", "本软件主要基于handwrite库开发，仅供学习交流。"))
         self.lineEdit.setAccessibleDescription(_translate("Form", "1111"))
         self.pushButton.setText(_translate("Form", "选择"))
         self.pushButton_2.setText(_translate("Form", "选择"))
